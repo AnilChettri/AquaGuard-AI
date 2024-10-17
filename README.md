@@ -15,7 +15,7 @@ AquaGuard AI is a project focused on monitoring and assessing water quality usin
 
 - **Languages**: Python, JavaScript, HTML, CSS
 - **Frameworks**: Flask, Pandas, Scikit-learn, OpenCV
-- **Database**: SQLite
+  
 
 ## Installation
 
