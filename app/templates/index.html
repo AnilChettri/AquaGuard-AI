@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Quality Monitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Water Quality Monitor</h1>
+    <form action="/predict" method="POST">
+        <label for="pH">pH Level:</label>
+        <input type="text" id="pH" name="pH" required><br>
+
+        <label for="temperature">Temperature (°C):</label>
+        <input type="text" id="temperature" name="temperature" required><br>
+
+        <label for="turbidity">Turbidity (NTU):</label>
+        <input type="text" id="turbidity" name="turbidity" required><br>
+
+        <input type="submit" value="Check Water Quality">
+    </form>
+</body>
+</html>

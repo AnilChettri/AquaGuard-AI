@@ -1,0 +1,5 @@
+# Inside requirements.txt
+scikit-learn
+pandas
+flask
+joblib
